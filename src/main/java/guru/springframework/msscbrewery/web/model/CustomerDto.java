@@ -5,17 +5,13 @@ import lombok.*;
 import java.util.UUID;
 
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class BeerDto {
+@Builder
+public class CustomerDto {
 
-    private UUID id;
-    private String beerName;
-    private String beerStyle;
-    private Long upc;
-
-
+    private UUID id1;
+    private String customerName;
 }
